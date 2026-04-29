@@ -1,0 +1,20 @@
+:root {
+    /* Cores */
+    --cor-primaria: #005fb8;
+    --cor-destaque: #0067b8;
+    --cor-fundo: #ffffff;
+    --cor-texto: #262626;
+    --cor-texto-suave: #616161;
+    --cor-botao: #0067b8;
+    --cor-botao-texto: #ffffff;
+    --cor-overlay: rgba(255, 255, 255, 0.9);
+
+    /* Tipografia */
+    --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* Medidas e Sombras */
+    --espacamento-padrao: 1.5rem;
+    --raio-borda: 4px;
+    --sombra-suave: 0 2px 4px rgba(0,0,0,0.05);
+    --sombra-card: 0 4px 12px rgba(0,0,0,0.1);
+}

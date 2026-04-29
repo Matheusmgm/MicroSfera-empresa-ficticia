@@ -1,0 +1,36 @@
+body {
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+}
+
+.botao-primario {
+    background-color: var(--cor-botao);
+    color: var(--cor-botao-texto);
+    padding: 10px 24px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.botao-primario:hover {
+    filter: brightness(1.2);
+}
+
+.link-banner {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.link-banner:hover {
+    text-decoration: underline;
+}
+
+.recipiente-central {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
