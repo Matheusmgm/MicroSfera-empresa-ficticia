@@ -202,6 +202,74 @@
         width: auto;
     }
 }
+
+/* Classes Utilitárias e de Layout Generalistas */
+.secao-espacada {
+    padding: 60px 0;
+}
+
+.titulo-pagina {
+    margin-bottom: 40px;
+    color: var(--cor-primaria);
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+/* Componentes de Grid e Cards */
+.grid-generico {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card-simples {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: var(--raio-borda);
+    transition: transform 0.3s ease;
+}
+
+.card-simples:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-card);
+}
+
+.card-simples img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.preco-destaque {
+    font-weight: 700;
+    color: var(--cor-primaria);
+    margin-top: 15px;
+    display: block;
+}
+
+/* Estilos para Suporte e Busca */
+.container-busca {
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.campo-entrada {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: var(--raio-borda);
+}
+
+/* Estilos Específicos de Heros (Páginas Internas) */
+.hero-colorido {
+    background: linear-gradient(135deg, #005fb8, #00c6ff);
+    padding: 80px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
 }
 
 /* Estilos do Carrossel */
