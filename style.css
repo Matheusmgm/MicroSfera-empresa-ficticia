@@ -272,6 +272,10 @@
     text-align: center;
 }
 
+.btn-vendas {
+    background-color: var(--cor-texto) !important;
+}
+
 /* Estilos do Carrossel */
 .carousel {
     position: relative;

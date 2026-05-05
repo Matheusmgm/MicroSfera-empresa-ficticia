@@ -12,20 +12,45 @@
 </head>
 <body>
     <header class="cabecalho-principal">
-        <nav class="navegacao-recipiente recipiente-central">
+        <nav class="navegacao-recipiente recipiente-central" aria-label="Navegação Principal">
             <div class="logo-setor">
                 <a href="index.html">
                     <img src="https://placehold.co/120x30/005fb8/white?text=MicroSfera" alt="Logotipo MicroSfera" class="logotipo">
                     <span class="nome-empresa">MicroSfera</span>
                 </a>
             </div>
-            <ul class="lista-navegacao" role="list">
-                <li><a href="sistemas.html" class="item-navegacao">Sistemas</a></li>
-                <li><a href="nuvem.html" class="item-navegacao">Nuvem</a></li>
-                <li><a href="copilot.html" class="item-navegacao">Copilot</a></li>
-                <li><a href="dispositivos.html" class="item-navegacao">Dispositivos</a></li>
-                <li><a href="suporte.html" class="item-navegacao">Suporte</a></li>
-            </ul>
+            <button class="btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavegacao">
+                <ul class="lista-navegacao" role="list">
+                    <li><a href="sistemas.html" class="item-navegacao">Sistemas</a></li>
+                    <li><a href="nuvem.html" class="item-navegacao">Nuvem</a></li>
+                    <li><a href="copilot.html" class="item-navegacao">Copilot</a></li>
+                    <li><a href="dispositivos.html" class="item-navegacao">Dispositivos</a></li>
+                    <li><a href="suporte.html" class="item-navegacao">Suporte</a></li>
+                </ul>
+            </div>
+            <div class="acoes-usuario">
+                <div class="dropdown">
+                    <button class="btn-suspenso dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Toda a MicroSfera
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#servicos">Serviços</a></li>
+                        <li><a class="dropdown-item" href="#produtos">Produtos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#empresa">Sobre a Empresa</a></li>
+                    </ul>
+                </div>
+                <div class="icones-grupo">
+                    <svg class="icone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <svg class="icone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                    <svg class="icone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+            </div>
         </nav>
     </header>
 
